@@ -6,7 +6,8 @@ package decoratorPatten;
  *
  */
 public abstract class BeverageDecorator extends Beverage {
-	
+
+	@Override
 	public abstract String getDescription();
 	
 }
