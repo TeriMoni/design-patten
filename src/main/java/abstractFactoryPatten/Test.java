@@ -10,11 +10,11 @@ import decoratorPatten.Beverage;
 public class Test {
 
     public static void main(String[] args) {
-        HotDrinkFactory beverageFactory = new HotDrinkFactory();
+        BeverageFactory beverageFactory = new HotDrinkFactory();
         Coffee hotCoffee = beverageFactory.createCoffeeDrink("拿铁咖啡");
         MilkTea hotMilkTea = beverageFactory.createMilkTeaDrink("慕斯奶茶");
         System.out.println("===========================");
-        IceDrinkFactory iceDrinkFactory = new IceDrinkFactory();
+        BeverageFactory iceDrinkFactory = new IceDrinkFactory();
         Coffee iceCoffee = iceDrinkFactory.createCoffeeDrink("卡布奇洛");
         MilkTea iceMilkTea = iceDrinkFactory.createMilkTeaDrink("红豆布丁奶茶");
     }
