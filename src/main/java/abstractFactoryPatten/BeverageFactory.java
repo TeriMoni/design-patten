@@ -9,4 +9,8 @@ import observerPatten.Observer;
  **/
 public interface BeverageFactory {
 
+    public Coffee createCoffeeDrink(String name);
+
+    public MilkTea createMilkTeaDrink(String name);
+
 }
