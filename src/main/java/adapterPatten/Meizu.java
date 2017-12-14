@@ -14,7 +14,7 @@ public class Meizu extends Phone implements Usb {
         this.adaptor = adaptor;
     }
     public void charge() {
-        adaptor.convert();
+        adaptor.convert(this);
         System.out.println(brand+"通过手机usb充电");
     }
 }

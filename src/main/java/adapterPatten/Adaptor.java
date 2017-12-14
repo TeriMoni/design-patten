@@ -7,7 +7,7 @@ package adapterPatten;
  **/
 public class Adaptor {
 
-    public void convert(){
-        System.out.print("通过usb转接线转换接口：");
+    public void convert(Phone phone){
+        System.out.print(phone.brand+"通过usb转接线转换接口：");
     }
 }
