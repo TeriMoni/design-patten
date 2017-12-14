@@ -16,5 +16,7 @@ public class Test {
         Usb meizu = new Meizu("魅族ix5",adaptor);
         meizu.charge();
         System.out.println("================================");
+        Server adaptor2 = new Adaptor2();
+        adaptor2.request();
     }
 }
